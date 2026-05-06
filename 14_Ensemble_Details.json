@@ -1,0 +1,25 @@
+{
+  "top_three_models": [
+    "Random Forest",
+    "Gradient Boosting",
+    "Decision Tree"
+  ],
+  "bayesian_weights": [
+    {
+      "Model": "Random Forest",
+      "Validation ROC-AUC": 0.9333533995255802,
+      "Bayesian Ensemble Weight": 0.33521646245765396
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Validation ROC-AUC": 0.9327171653835596,
+      "Bayesian Ensemble Weight": 0.33500325413167137
+    },
+    {
+      "Model": "Decision Tree",
+      "Validation ROC-AUC": 0.9170035446453955,
+      "Bayesian Ensemble Weight": 0.32978028341067467
+    }
+  ],
+  "explanation": "Bayesian-style weights were generated from validation ROC-AUC scores and used to average the top model confidence scores."
+}
